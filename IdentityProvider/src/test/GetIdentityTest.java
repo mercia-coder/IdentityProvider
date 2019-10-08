@@ -14,7 +14,7 @@ import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
 import identity.ApplicationException;
-import identity.DataStore;
+import identity.IdentityDataStore;
 import identity.ResultSet;
 
 /**
@@ -25,7 +25,7 @@ import identity.ResultSet;
 public class GetIdentityTest {
 
 	// Testing DataStore
-	DataStore dataStore = new DataStore();
+	IdentityDataStore dataStore = new IdentityDataStore();
 	
 	// Username and password
 	private static String username;
