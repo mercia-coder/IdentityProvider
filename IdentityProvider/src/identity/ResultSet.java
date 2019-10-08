@@ -34,6 +34,22 @@ public class ResultSet implements Comparable<ResultSet>
 		this.subDepartment = null;
 		
 	}
+
+	
+	/**
+	 * Constructor
+	 * @param id The ID of the identity
+	 * @param name The Name of the identity
+	 * @param department The Department the identity belongs to
+	 */
+	public ResultSet(String id, String name, String department) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.department = department;
+		this.subDepartment = null;
+		
+	}
 	
 	/**
 	 * Constructor
